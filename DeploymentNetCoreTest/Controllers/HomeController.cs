@@ -9,7 +9,7 @@ using DeploymentNetCoreTest.Models;
 
 namespace DeploymentNetCoreTest.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         private readonly ILogger<HomeController> _logger;
 
